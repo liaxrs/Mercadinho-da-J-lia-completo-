@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produtos - Mercadinho da Júlia</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Altera a cor das setas */
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-color: #FF5733; 
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <h1>Mercadinho da Júlia</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="produtos.html">Produtos</a> |
+      <a href="servicos.html">Serviços</a> |
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <!-- Corpo -->
+  <main>
+    <h2>Produtos</h2>
+
+    <!-- Carrossel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="imagens/arroz.png" class="d-block w-100" alt="Promoção: pacote de arroz de 1kg" style="max-width: 200px; margin: 0 auto;">
+        </div>
+        <div class="carousel-item">
+          <img src="imagens/feijão.png" class="d-block w-100" alt="Promoção: pacote de feijão preto de 1kg" style="max-width: 200px; margin: 0 auto;">
+        </div>
+        <div class="carousel-item">
+          <img src="imagens/sucodeuva.png" class="d-block w-100" alt="Promoção: garrafa de suco de uva natural de 1 litro" style="max-width: 200px; margin: 0 auto;">
+        </div>
+        <div class="carousel-item">
+          <img src="imagens/aguamineral.png" class="d-block w-100" alt="Promoção: garrafa de água mineral de 500ml" style="max-width: 100px; margin: 0 auto;">
+        </div>
+        <div class="carousel-item">
+          <img src="imagens/detergente.png" class="d-block w-100" alt="Promoção: detergente líquido de 500ml" style="max-width: 90px; margin: 0 auto;">
+        </div>
+        <div class="carousel-item">
+          <img src="imagens/sabãoempó.png" class="d-block w-100" alt="Promoção: sabão em pó de 1kg" style="max-width: 200px; margin: 0 auto;">
+        </div>
+      </div>
+
+      <!-- Controles de navegação -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+
+    <!-- Outras categorias -->
+    <section>
+      <h3>Alimentos</h3>
+      <div>
+        <img src="imagens/arroz.png" alt="Pacote de arroz integral de 1kg" width="200">
+        <p>Arroz Integral</p>
+        <p>Valor: R$ 10,00</p>
+      </div>
+      <div>
+        <img src="imagens/feijão.png" alt="Pacote de feijão preto de 1kg" width="200">
+        <p>Feijão Preto</p>
+        <p>Valor: R$ 8,00</p>
+      </div>
+    </section>
+
+    <section>
+      <h3>Bebidas</h3>
+      <div>
+        <img src="imagens/sucodeuva.png" alt="Garrafa de suco de uva de 1 litro" width="200">
+        <p>Suco de Uva</p>
+        <p>Valor: R$ 12,00</p>
+      </div>
+      <div>
+        <img src="imagens/aguamineral.png" alt="Garrafa de água mineral de 500ml" width="150">
+        <p>Água Mineral</p>
+        <p>Valor: R$ 2,00</p>
+      </div>
+    </section>
+
+    <section>
+      <h3>Limpeza</h3>
+      <div>
+        <img src="imagens/detergente.png" alt="Detergente líquido de 500ml" width="100">
+        <p>Detergente</p>
+        <p>Valor: R$ 3,50</p>
+      </div>
+      <div>
+        <img src="imagens/sabãoempó.png" alt="Pacote de sabão em pó de 1kg" width="200">
+        <p>Sabão em Pó</p>
+        <p>Valor: R$ 9,00</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2024 Mercadinho da Júlia. Todos os direitos reservados.</p>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="produtos.html">Produtos</a> |
+      <a href="servicos.html">Serviços</a> |
+      <a href="contato.html">Contato</a>
+    </nav>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
